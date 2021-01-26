@@ -1,0 +1,22 @@
+{
+  "name": "review-section-proxy",
+  "version": "1.0.0",
+  "description": "FEC proxy server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iron-people-fec/review-section-proxy.git"
+  },
+  "author": "Lexy Kramer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iron-people-fec/review-section-proxy/issues"
+  },
+  "homepage": "https://github.com/iron-people-fec/review-section-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
