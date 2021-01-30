@@ -2,9 +2,49 @@
 <html>
   <head>
     <title>Bullseye</title>
+    <link rel="stylesheet" type='text/css' href="/css">
   </head>
   <body>
+    <div class="nav-container">
+      <div class="header">
+        <div>
+          <svg viewBox="0 0 90 90" width="63" height="63" >
+            <circle fill="white" r="9.2" cy="45" cx="45"></circle>
+            <circle fill="none" stroke="white" stroke-width="10" r="24" cy="45" cx="45"></circle>
+          </svg>
+        </div>
+        <ul>
+          <li>Categories</li>
+          <li>Deal</li>
+          <li>What's New</li>
+          <li>Pickup & Delivery</li>
+        </ul>
+        <input placeholder="Search"></input>
+      </div>
+      <div class="nav">
+        <ul>
+          <li>Registry</li>
+          <li>Weekly Ad</li>
+          <li>RedCard</li>
+          <li>Gift Cards</li>
+          <li>Find Stores</li>
+          <li>Orders</li>
+        </ul>
+      </div>
+    </div>
+
+    <main>
+    <div class="container">
+      <div id="product_images"></div>
+      <div id='sales'></div>
+    </div>
+    <div id="carousel"></div>
     <div id="bullseye-reviews"></div>
+
+    <script src="http://localhost:8003/bundle"></script>
+    <script src="http://localhost:8002/bundle"></script>
+    <script src="http://localhost:8001/bundle"></script>
     <script src="http://localhost:8004/bundle"></script>
+  </main>
   </body>
 </html>
