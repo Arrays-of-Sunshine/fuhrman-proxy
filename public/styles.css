@@ -5,7 +5,7 @@ html *::after *::before {
 
 .body {
   color: #333333;
-  font-family: 'Helvetica Neue';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin:0px;
   padding:0px;
 }
